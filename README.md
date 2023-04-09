@@ -25,6 +25,7 @@ The script may take some time to complete, depending on the size of the range be
 Some devices may not respond to ping requests, so the script may not be able to detect all devices on the network.
 
 Scanning a network without proper authorization may be illegal and can result in serious consequences.
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Password Generator:
 
@@ -40,6 +41,7 @@ random
 string
 
 This will generate a random password of length 12 and print it to the console. You can change the length to generate passwords of different lengths. The characters string defines the set of characters that can be used in the password; you can modify this string to customize the character set if desired.
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Hash Function:
 
@@ -52,3 +54,5 @@ To use the hash function, simply call the hash_string function with the string y
 This code uses the following module:
 
 hashlib
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
