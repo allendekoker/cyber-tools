@@ -101,8 +101,6 @@ Call the password_strength function with a password as the argument.
 
 <!-- Example:
 
-python
-Copy code
 from password_strength import password_strength
 
 password = 'MySecurePassword123!'
@@ -120,5 +118,26 @@ digit: password must contain at least one digit
 special: password must contain at least one special character
 
 Adjusting these rules can help you customize the password strength requirements to your specific needs.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Simple Port Scanner:
+
+This is a simple port scanner written in Python that can be used to scan a range of ports on a specified host.
+
+Installation:
+
+To use this script, you'll need to have Python 3 installed on your machine. You can download the latest version of Python from the official website at https://www.python.org/downloads/.
+
+Usage:
+
+To use the port scanner, simply run the script with the following command:
+
+<!-- python port_scanner.py -->
+
+By default, the script will scan the range of ports from 1 to 1024 on the localhost (127.0.0.1). You can customize the host and port range by editing the appropriate variables in the script.
+
+Disclaimer:
+
+This script is provided for educational and informational purposes only. The use of this script for any illegal or unauthorized purpose is strictly prohibited. The author is not responsible for any damages or consequences resulting from the use of this script. Use at your own risk.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
