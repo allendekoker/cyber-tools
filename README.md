@@ -25,4 +25,28 @@ The script may take some time to complete, depending on the size of the range be
 Some devices may not respond to ping requests, so the script may not be able to detect all devices on the network.
 
 Scanning a network without proper authorization may be illegal and can result in serious consequences.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Password Generator:
+
+This is a Python code for a simple password generator that generates a random password of a specified length. The password can contain uppercase and lowercase letters, digits, and punctuation characters.
+
+Usage:
+
+To use the password generator, simply call the generate_password function with the desired length of the password:
+
+import random
+import string
+
+def generate_password(length):
+    # Define the character set to be used in the password
+    characters = string.ascii_letters + string.digits + string.punctuation
+
+    # Generate a random password
+    password = ''.join(random.choice(characters) for i in range(length))
+
+    return password
+
+password = generate_password(12)
+print(password)
+
+This will generate a random password of length 12 and print it to the console. You can change the length to generate passwords of different lengths. The characters string defines the set of characters that can be used in the password; you can modify this string to customize the character set if desired.
