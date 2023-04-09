@@ -40,3 +40,15 @@ random
 string
 
 This will generate a random password of length 12 and print it to the console. You can change the length to generate passwords of different lengths. The characters string defines the set of characters that can be used in the password; you can modify this string to customize the character set if desired.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Hash Function:
+
+This is a Python script that contains a simple hash function that uses the SHA-256 algorithm from the hashlib module. The hash function takes a string as input and returns the SHA-256 hash of the string in hexadecimal format.
+
+Usage:
+
+To use the hash function, simply call the hash_string function with the string you want to hash. The function will return the SHA-256 hash of the input string in hexadecimal format. Note that the hash function is a one-way function, meaning that it's not possible to retrieve the original string from the hash.
+
+This code uses the following module:
+
+hashlib
