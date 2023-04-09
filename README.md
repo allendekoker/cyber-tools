@@ -87,3 +87,38 @@ This code uses the following module:
 re
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Password Strength Tester:
+
+This script tests the strength of passwords based on a set of predefined rules, including minimum length, requirement of lowercase and uppercase letters, digits, and special characters.
+
+To use this script, simply call the password_strength function with a password as the argument. The function will return a message indicating whether the password is weak or strong, along with recommendations for how to improve its strength if necessary.
+
+Usage
+:
+Download or clone the password_strength.py file.
+Import the password_strength function into your project or script.
+Call the password_strength function with a password as the argument.
+
+<!-- Example:
+
+python
+Copy code
+from password_strength import password_strength
+
+password = 'MySecurePassword123!'
+result = password_strength(password)
+print(result) # output: Password is strong. -->
+
+Customization:
+
+The password strength rules can be customized by editing the rules dictionary in the script. The following rules can be adjusted:
+
+length: minimum password length
+lower: password must contain at least one lowercase character
+upper: password must contain at least one uppercase character
+digit: password must contain at least one digit
+special: password must contain at least one special character
+
+Adjusting these rules can help you customize the password strength requirements to your specific needs.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
