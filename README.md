@@ -72,3 +72,18 @@ requests
 beautifulsoup4
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Log Analyzer:
+
+This is a Python script that demonstrates how to analyze log files using regular expressions. The script reads a log file, extracts log entries using a regular expression, counts the number of occurrences of each log entry, and prints out the results.
+
+Usage:
+
+To use the log analyzer, simply call the analyze_log_file function with the path to the log file you want to analyze. The function will extract log entries using a regular expression, count the number of occurrences of each log entry, and print out the results.
+
+Note that log files may contain sensitive information, and it is important to handle them with care. Be sure to follow ethical guidelines and data privacy regulations when working with log files.
+
+This code uses the following module:
+
+re
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
