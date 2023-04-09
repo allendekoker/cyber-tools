@@ -1,4 +1,4 @@
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Network Scanner Script:
 
 This script is a command-line tool that can be used to scan a network and identify all available devices. It works by sending a single ping packet to each IP address in a specified range and checking if a response is received.
@@ -33,12 +33,12 @@ This is a Python code for a simple password generator that generates a random pa
 
 Usage:
 
-To use the password generator, simply call the generate_password function with the desired length of the password.
+To use the password generator, simply call the "generate_password" function with the desired length of the password.
 
 This code uses the following modules:
 
-random
-string
+"random"
+"string"
 
 This will generate a random password of length 12 and print it to the console. You can change the length to generate passwords of different lengths. The characters string defines the set of characters that can be used in the password; you can modify this string to customize the character set if desired.
 
@@ -49,11 +49,11 @@ This is a Python script that contains a simple hash function that uses the SHA-2
 
 Usage:
 
-To use the hash function, simply call the hash_string function with the string you want to hash. The function will return the SHA-256 hash of the input string in hexadecimal format. Note that the hash function is a one-way function, meaning that it's not possible to retrieve the original string from the hash.
+To use the hash function, simply call the "hash_string" function with the string you want to hash. The function will return the SHA-256 hash of the input string in hexadecimal format. Note that the hash function is a one-way function, meaning that it's not possible to retrieve the original string from the hash.
 
 This code uses the following module:
 
-hashlib
+"hashlib"
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Web Scraper:
@@ -62,14 +62,14 @@ This is a Python script that demonstrates how to scrape web pages using the requ
 
 Usage:
 
-To use the web scraper, simply call the scrape_url function with the URL of the website you want to scrape. The function will send a GET request to the specified URL, parse the HTML content of the response using BeautifulSoup, and print out the text and href attribute of each link on the page.
+To use the web scraper, simply call the "scrape_url" function with the URL of the website you want to scrape. The function will send a GET request to the specified URL, parse the HTML content of the response using BeautifulSoup, and print out the text and href attribute of each link on the page.
 
 Note that scraping websites without permission may be against their terms of service or may be illegal in some jurisdictions. Be sure to obtain the necessary permissions and follow ethical guidelines when using web scrapers.
 
 This code uses the following modules:
 
-requests
-beautifulsoup4
+"requests"
+"beautifulsoup4"
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Log Analyzer:
@@ -78,23 +78,23 @@ This is a Python script that demonstrates how to analyze log files using regular
 
 Usage:
 
-To use the log analyzer, simply call the analyze_log_file function with the path to the log file you want to analyze. The function will extract log entries using a regular expression, count the number of occurrences of each log entry, and print out the results.
+To use the log analyzer, simply call the "analyze_log_file" function with the path to the log file you want to analyze. The function will extract log entries using a regular expression, count the number of occurrences of each log entry, and print out the results.
 
 Note that log files may contain sensitive information, and it is important to handle them with care. Be sure to follow ethical guidelines and data privacy regulations when working with log files.
 
 This code uses the following module:
 
-re
+"re"
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Password Strength Tester:
 
 This script tests the strength of passwords based on a set of predefined rules, including minimum length, requirement of lowercase and uppercase letters, digits, and special characters.
 
-To use this script, simply call the password_strength function with a password as the argument. The function will return a message indicating whether the password is weak or strong, along with recommendations for how to improve its strength if necessary.
+To use this script, simply call the "password_strength" function with a password as the argument. The function will return a message indicating whether the password is weak or strong, along with recommendations for how to improve its strength if necessary.
 
-Usage
-:
+Usage:
+
 Download or clone the password_strength.py file.
 Import the password_strength function into your project or script.
 Call the password_strength function with a password as the argument.
