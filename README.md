@@ -23,5 +23,6 @@ Notes:
 
 The script may take some time to complete, depending on the size of the range being scanned.
 Some devices may not respond to ping requests, so the script may not be able to detect all devices on the network.
+
 Scanning a network without proper authorization may be illegal and can result in serious consequences.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
