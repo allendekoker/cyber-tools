@@ -56,3 +56,19 @@ This code uses the following module:
 hashlib
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Web Scraper:
+
+This is a Python script that demonstrates how to scrape web pages using the requests and beautifulsoup4 modules. The script sends a GET request to a specified URL, extracts information from the HTML content of the response using BeautifulSoup, and prints out the text and href attribute of each link on the page.
+
+Usage:
+
+To use the web scraper, simply call the scrape_url function with the URL of the website you want to scrape. The function will send a GET request to the specified URL, parse the HTML content of the response using BeautifulSoup, and print out the text and href attribute of each link on the page.
+
+Note that scraping websites without permission may be against their terms of service or may be illegal in some jurisdictions. Be sure to obtain the necessary permissions and follow ethical guidelines when using web scrapers.
+
+This code uses the following modules:
+
+requests
+beautifulsoup4
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
