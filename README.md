@@ -141,3 +141,16 @@ Disclaimer:
 This script is provided for educational and informational purposes only. The use of this script for any illegal or unauthorized purpose is strictly prohibited. The author is not responsible for any damages or consequences resulting from the use of this script. Use at your own risk.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Clone the repository or download the image-based-authentication.py file.
+
+Modify the tool_names list with your own set of trading tool names.
+
+Run the script using the following command: python image-based-authentication.py
+
+The script will generate a pattern of shuffled trading tool names and display them to the user.
+
+The user should input the trading tool names in the correct order based on the pattern that was generated.
+
+If the user's input matches the original pattern, the authentication is successful.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
