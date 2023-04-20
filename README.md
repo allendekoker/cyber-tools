@@ -26,6 +26,8 @@ Some devices may not respond to ping requests, so the script may not be able to 
 
 Scanning a network without proper authorization may be illegal and can result in serious consequences.
 
+This tool is provided for educational and informational purposes only. It should not be used for any illegal or unethical purposes. The author is not responsible for any misuse or damage caused by this tool.
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Password Generator:
 
@@ -42,6 +44,8 @@ This code uses the following modules:
 
 This will generate a random password of length 12 and print it to the console. You can change the length to generate passwords of different lengths. The characters string defines the set of characters that can be used in the password; you can modify this string to customize the character set if desired.
 
+This tool is provided for educational and informational purposes only. It should not be used for any illegal or unethical purposes. The author is not responsible for any misuse or damage caused by this tool.
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Hash Function:
 
@@ -54,6 +58,8 @@ To use the hash function, simply call the "hash_string" function with the string
 This code uses the following module:
 
 "hashlib"
+
+This tool is provided for educational and informational purposes only. It should not be used for any illegal or unethical purposes. The author is not responsible for any misuse or damage caused by this tool.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Web Scraper:
@@ -71,6 +77,8 @@ This code uses the following modules:
 "requests"
 "beautifulsoup4"
 
+This tool is provided for educational and informational purposes only. It should not be used for any illegal or unethical purposes. The author is not responsible for any misuse or damage caused by this tool.
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Log Analyzer:
 
@@ -85,6 +93,8 @@ Note that log files may contain sensitive information, and it is important to ha
 This code uses the following module:
 
 "re"
+
+This tool is provided for educational and informational purposes only. It should not be used for any illegal or unethical purposes. The author is not responsible for any misuse or damage caused by this tool.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Password Strength Tester:
@@ -119,6 +129,8 @@ special: password must contain at least one special character
 
 Adjusting these rules can help you customize the password strength requirements to your specific needs.
 
+This tool is provided for educational and informational purposes only. It should not be used for any illegal or unethical purposes. The author is not responsible for any misuse or damage caused by this tool.
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Simple Port Scanner:
 
@@ -130,9 +142,7 @@ To use this script, you'll need to have Python 3 installed on your machine. You 
 
 Usage:
 
-To use the port scanner, simply run the script with the following command:
-
-<!-- python port_scanner.py -->
+To use the port scanner, simply run the script with the following command: python port_scanner.py
 
 By default, the script will scan the range of ports from 1 to 1024 on the localhost (127.0.0.1). You can customize the host and port range by editing the appropriate variables in the script.
 
@@ -141,6 +151,17 @@ Disclaimer:
 This script is provided for educational and informational purposes only. The use of this script for any illegal or unauthorized purpose is strictly prohibited. The author is not responsible for any damages or consequences resulting from the use of this script. Use at your own risk.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Image-based Authentication Tool:
+
+This tool implements image-based authentication using a specific pattern. The user is required to select some images (such as different trading tool names) in a specific pattern (for example, AAPL is followed by GOOG which is in turn followed by MSFT and so on). The next time the user tries to log in, the images would have been shuffled, but the user will be required to follow the same pattern which was used initially. Every time the user will have to use the same sequence while the images are placed in different ways. This type of authentication is difficult to break since neither brute force nor dictionary attacks could breach it.
+
+Requirements:
+
+    Python 3
+    PIL (Python Imaging Library)
+
+Usage:
+
 Clone the repository or download the image-based-authentication.py file.
 
 Modify the tool_names list with your own set of trading tool names.
@@ -152,5 +173,44 @@ The script will generate a pattern of shuffled trading tool names and display th
 The user should input the trading tool names in the correct order based on the pattern that was generated.
 
 If the user's input matches the original pattern, the authentication is successful.
+
+This tool is provided for educational and informational purposes only. It should not be used for any illegal or unethical purposes. The author is not responsible for any misuse or damage caused by this tool.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DNA Encryption and Decryption Tool:
+
+This is a Python-based tool that allows you to encrypt and decrypt messages using DNA strands. The tool takes a plaintext message as input and encodes it as a DNA sequence using a specified encoding method. The encoded message can then be synthesized using DNA synthesizing techniques. To decrypt the message, the DNA sequence is converted back to binary and then to a character sequence.
+
+Tools and Technologies Used:
+
+    Python programming language
+    NumPy library
+    Pandas library
+
+Requirements:
+
+To run this tool, you will need to have Python installed on your computer. You will also need to have a good understanding of cryptography and knowledge of Python programming language. Familiarity with the NumPy and Pandas libraries is also necessary.
+
+Setup:
+
+    Install the NumPy and Pandas libraries by running the following command: pip install numpy pandas
+
+    Create a new Python file and copy the code from dna_encrypt.py.
+
+    Define the DNA encoding method. This can be any arbitrary encoding method that maps each character to a four-digit binary code.
+
+    Define the function to encode the plaintext message as a DNA sequence.
+
+    Define the function to decode the DNA sequence back to a plaintext message.
+
+    Test the functions with a sample message.
+
+    Run the Python script using the command python dna_encrypt.py.
+
+Conclusion:
+
+The completed tool is an advanced-level project that allows you to encrypt and decrypt messages using DNA strands. It uses the Python programming language and the NumPy and Pandas libraries, and incorporates a specified encoding method to map characters to four-digit binary codes. The tool can be used to securely store and transmit sensitive information, and it requires an expert knowledge of cryptography to implement.
+
+This tool is provided for educational and informational purposes only. It should not be used for any illegal or unethical purposes. The author is not responsible for any misuse or damage caused by this tool.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
